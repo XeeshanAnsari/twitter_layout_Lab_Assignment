@@ -48,8 +48,9 @@ li a{
     position: absolute;
     left: 60%;
     top : 8px;
-    width: 18%;
-    height: 30px;
+    width: 16%;
+    height: 22px;
+    padding: 5px 1%;
     border: 1px solid lightgray;
     border-radius: 15px 15px;
     background-color: whitesmoke; 
@@ -141,11 +142,40 @@ li a{
     font-size: 200%;
 }
 
-
+/*  left side Body   */
 #center-box{
     width: 50%;
     background-color: blanchedalmond;
     float: left;
+    
+}
+#center-box div{
+    margin: 0px auto;
+    width: 97%;
+}
+.post-box{
+    height: 55px;
+    background-color: #E5F2F7;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 2px 0%;
+    border: 1px solid gray;
+}
+#post-user-img{
+    width: 6%;
+    height: 30px;
+    margin-left: 2%;
+    border: 1px solid lightgray;
+    border-radius: 5px 5px;
+    position: relative;
+    top: 12px;
+}
+#post-field{
+    width: 88%;
+    height: 30px;
+    padding: 2px 1%;
+    border: 1px solid lightslategray;
+    border-radius: 3px 3px;
 }
 #right-box{
     width: 25%;
