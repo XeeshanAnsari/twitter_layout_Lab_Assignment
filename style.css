@@ -40,9 +40,10 @@ li a{
     position: absolute;
     left: 45%;
     top: 10px;
-    color: blue;
-    font-size: 30px;
- 
+    font-size: 28px;
+}
+.fa-twitter{
+    color: #1DA1F2;
 }
 #search{
     position: absolute;
@@ -164,7 +165,7 @@ li a{
     color: blue;
     font-size: 0.8em;
 }
-.trend{
+.trend {
     color: gray;
     font-weight: bold;   
 }
@@ -189,6 +190,7 @@ li a{
 /*  center side Body   */
 #center-box{
     width: 50%;
+    height: 2000px;
     background-color: #F5F8FA;
     float: left;
     
@@ -229,9 +231,67 @@ li a{
     padding: 8px 40%;;
     
 }
-
+/*  right side Body   */
 #right-box{
     width: 25%;
+   height: 2000px;
     background-color: #F5F8FA;
     float: left;
+}
+.follow-box{
+    width: 80%;
+    height: 210px;
+    background-color: white;
+    float: left;
+    border: 1px solid #E1E8ED;
+    border-top-left-radius: 5px 5px;
+    border-top-right-radius: 5px 5px;
+    padding: 10px 5%;
+}
+.follow{
+    color: #66757F; 
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.who-follow a{
+    color: #8784B4;
+    text-decoration: none;
+    font-size: .8em;
+}
+.follower-user{
+    width: 100%;
+    height: 50px;
+    margin-top: 12px;
+    color: #BFA8AB;
+}
+.follower-user img{
+    vertical-align: top;
+}
+.follower-user a:link{
+    text-decoration: none;
+    color: black;
+}
+.follower-user a:hover{
+    color: #0084B4;
+    text-decoration: underline;
+}
+.follower-user img{
+    border-radius: 5px 5px;
+}
+.follow-button{
+    width: 10%;
+    height: 30px;
+    padding: 5px 7%;
+    background: #F6F9FB;
+    color: #292F33;
+    border: 1px solid #E1E8ED;
+    border-radius: 5px 5px;
+    position: relative;
+    top: -20px;
+    left: 23%;  
+}
+
+.fa-user{
+    margin-right: 5px;
+    color: #1DA1F2;
 }
