@@ -28,13 +28,14 @@ li a{
     color: gray;
 }
 .fa{
-    
     color: gray;
     font-size: 30px;
 }
-
+.navbar a:hover{
+    color: #0084B4;
+}
 .navbar li:hover{
-    border-bottom: 5px solid darkblue ;
+    border-bottom: 5px solid #0084B4 ;
 }
 .twitter-icon{
     position: absolute;
@@ -270,6 +271,7 @@ li a{
 .follower-user a:link{
     text-decoration: none;
     color: black;
+    margin-left: 2%;
 }
 .follower-user a:hover{
     color: #0084B4;
@@ -279,19 +281,58 @@ li a{
     border-radius: 5px 5px;
 }
 .follow-button{
-    width: 10%;
-    height: 30px;
-    padding: 5px 7%;
+    width: 25%;
+    height: 18px;
+    padding: 5px 5%;
     background: #F6F9FB;
     color: #292F33;
     border: 1px solid #E1E8ED;
     border-radius: 5px 5px;
+    font-size: 100%;
     position: relative;
-    top: -20px;
+    top: -27px;
     left: 23%;  
 }
-
 .fa-user{
     margin-right: 5px;
+    color: #1DA1F2;
+}
+.find-gmail{
+    width: 80%;
+    height: 80px;
+    background-color: #F5F8FA;
+    float: left;
+    border: 1px solid #E1E8ED;
+    border-bottom-left-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px;
+    padding: 10px 5%;
+}
+.gmail-contact{
+    padding: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #E1E8ED;
+}
+.gmail-image img{
+    vertical-align: text-top;
+    width: 15%;
+    height: 35px;
+    border-radius: 3px 3px;
+    border: 1px solid #E1E8ED;
+}
+.find-people-text{
+    color: black;
+    font-weight: bold;
+    font-family: Arial,sans-serif;;
+}
+.import-contact-text{
+    position: relative;
+    top: -18px;
+    left: 18%;
+    font-family: Arial,sans-serif;
+    font-size: 80%;
+    color: gray;
+}
+.connect-another a:link{ 
+    text-decoration: none;
     color: #1DA1F2;
 }
