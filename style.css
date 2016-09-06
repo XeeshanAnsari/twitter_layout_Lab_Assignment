@@ -4,6 +4,7 @@ body{
     background-color: #F5F8FA;
 }
 
+
 #header{
     width: 100%;
     height: 50px;
@@ -11,9 +12,7 @@ body{
     border: 1px solid gray;
     background-color: #ffffff;
     padding: 0px;
-    box-shadow: 2px 0px 2px gray;
-    position: ;
-    
+    box-shadow: 2px 0px 2px gray;    
 }
 
 .navbar li{ 
@@ -57,7 +56,6 @@ li a{
     border: 1px solid lightgray;
     border-radius: 15px 15px;
     background-color: whitesmoke; 
-    background-image: url();
 }
 #nav-user-img{
     position: absolute;
@@ -72,7 +70,7 @@ li a{
     position: absolute;
     left: 86%;
     top : 8px;
-    background-color: darkblue;
+    background-color: #0084C4;
     color: white;
     width: 3%;
     height: 20px;
