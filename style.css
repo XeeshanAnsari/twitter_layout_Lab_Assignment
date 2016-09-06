@@ -314,6 +314,14 @@ li a{
     font-size: 95%;
     margin: 5px 0px;
 }
+.user-name a:link{
+    color: #0084B4;
+    text-decoration: none;
+}
+.user-name a:hover{
+    text-decoration: underline;
+}
+
 .user-link{
     font-size: 80%;
 }
@@ -327,9 +335,14 @@ li a{
 .user-link a:hover{
     color: #0084B4; 
     text-decoration:  underline;
-
 }
-
+#link-blue{
+    color: #0084B4;
+    text-decoration: none;
+}
+#link-blue:hover{
+    text-decoration: underline;
+}
 .post-images{
     width: 90%;
     height: 370px;
